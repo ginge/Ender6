@@ -1,5 +1,6 @@
 # Ender 6
 Creality Ender 6 notes
+Barry Carter <barry.carter@gmail.com>
 
 Machine teardown/info
 
@@ -54,3 +55,15 @@ No LCD Source available.
 * head strain relief - https://www.thingiverse.com/thing:4695820
 * filament bearing holder - https://www.thingiverse.com/thing:4659228
 * Orion quiet fan - https://www.digikey.com/en/products/detail/orion-fans/OD4010-24HB/2621113?fbclid=IwAR3BVuU-d9iysA3kckwqtj83w1VciwGTxTPJBJn7Hn-ydM5ehei6z_Pmev0
+
+
+# LCD firmware hacking
+Creality CR6SE firmware dwin code ported to ender 6 (Y)  - mostly working. 
+Sniff all stock LCD commands (N)
+Able to use stock LCD (Kinda)
+DWIN code applied to lcd (N)
+
+Issues:
+* There are some commands that are not mapped
+* you get stuck in screens
+
