@@ -62,7 +62,7 @@ Temperature (all measurements 20mm from edge)
 
 
 # Software
-Their slicer is functional but has many cura features stripped. Weird. I will be switching over to stock Cura once I have ported the cfgs
+Their slicer is functional but has many cura features stripped. Weird.
 
 
 # Thing I have noticed while using the machine
@@ -70,6 +70,7 @@ Their slicer is functional but has many cura features stripped. Weird. I will be
 * I have the machine set reasonably low on a bench. using the touchscreen at an angle from above can lead to you pressing the wrong thing. I miss the jog wheel.
 * You need a JST to JST cable for bltouch. There are some vids on youtube of hacking some cables together.
 * The UI goes from Chinese script to english when the change screen. Yeah.
+* The UI is missing key functionality, such as flow rate, estep calibration etc.
 
 Gripes
 The z stage can start to slowly slide down once a print has finished. The z-stepper switches off, and a heavy print and the arch nemesis gravity duke it out. It is weird, annoying and slightly concerning watching your large print hit the deck. Tightening the eccentric z screws helped a lot, but this still happens.
