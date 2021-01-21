@@ -3,10 +3,13 @@ Creality Ender 6 notes
 
 Machine teardown/info
 
-# General
+# General Resources
 * Forum - https://forum.creality.com/category/20/ender-6
 * Reddit - https://www.reddit.com/r/ender6/
 * Facegroup group too (private)
+
+# General Notes
+* EEPROM is stored on the SD card. If you change the SD, make sure to copy it over
 
 # LCD:
 DWIN DMT48270C043_06WT - https://www.aliexpress.com/item/1005001962148737.html?spm=2114.12010612.8148356.23.51f46c08lNXdFA
@@ -17,9 +20,13 @@ No LCD Source available.
 * http://www.ampdisplay.com/documents/pdf/DGUS%20Development%20Guide_V3.1.0.pdf
 * https://github.com/CR6Community/CR-6-touchscreen <- Re-purposeable to new orientation and layout
 
-# Things I have done
-* Bl Touch. Ender 6 has a Molex Picoblade 1.25mm pitch connector. - https://www.ebay.co.uk/itm/Molex-PicoBlade-1-25-micro-connector-2-3-4-5-6-Pin-leads-100mm-28-AWG-wire-PCB/232695637343?hash=item362dbda55f:g:vHoAAOSwWmNapoY1
+# BL Touch
+* Just buy a plain one, no kit required. Ender 6 has mounting brackets
+* required 1m of ribbon cable & conector. Get extension.
+* Ender 6 has a Molex Picoblade 1.25mm pitch connector. - https://www.ebay.co.uk/itm/Molex-PicoBlade-1-25-micro-connector-2-3-4-5-6-Pin-leads-100mm-28-AWG-wire-PCB/232695637343?hash=item362dbda55f:g:vHoAAOSwWmNapoY1
 * USB connector is broken out with an extension cable
+* Levelling: z-Offset problem:
+  * When levelled and aux levelling is done PRESS HOME TWICE. This saves the EEPROM.
 
 # Firmware
 * Marlin confs - https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Creality/Ender-6?fbclid=IwAR0_o2rPAgZGxDpl3_Vk7JpqURJPMX700ijOMignPIvyoPEuqtwHmsnmPXE
