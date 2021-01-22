@@ -60,10 +60,11 @@ No LCD Source available.
 # LCD firmware hacking
 * https://github.com/b-pub/dwin-ico-tools
 
-Creality CR6SE firmware dwin code ported to ender 6 (Y)  - mostly working. 
-Sniff all stock LCD commands (N)
-Able to use stock LCD (Kinda)
-DWIN code applied to lcd (N)
+* Creality CR6SE firmware dwin code ported to ender 6 (Y)  - mostly working. 
+* re-position all ui elements for correct orientation (20%)
+* Sniff/map all stock LCD commands (N)
+* Able to use stock LCD (Kinda)
+* DWIN code applied to lcd (N)
 
 Issues:
 * There are some commands that are not mapped
