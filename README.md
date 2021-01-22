@@ -25,7 +25,6 @@ No LCD Source available.
 * Just buy a plain one, no kit required. Ender 6 has mounting brackets
 * required 1m of ribbon cable & conector. Get extension.
 * Ender 6 has a Molex Picoblade 1.25mm pitch connector. - https://www.ebay.co.uk/itm/Molex-PicoBlade-1-25-micro-connector-2-3-4-5-6-Pin-leads-100mm-28-AWG-wire-PCB/232695637343?hash=item362dbda55f:g:vHoAAOSwWmNapoY1
-* USB connector is broken out with an extension cable
 * Levelling: z-Offset problem:
   * When levelled and aux levelling is done PRESS HOME TWICE. This saves the EEPROM.
 
@@ -47,6 +46,7 @@ No LCD Source available.
 * a clip to hold the bowden so it doesnt dnag on the blue connector
 * jog wheel
 * better PSU
+* USB connector is broken out with an extension cable
 
 # Addons
 * Fan Shroud - https://www.thingiverse.com/thing:4698226
