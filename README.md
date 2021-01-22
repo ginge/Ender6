@@ -11,6 +11,7 @@ Machine teardown/info
 
 # General Notes
 * EEPROM is stored on the SD card. If you change the SD, make sure to copy it over
+* Tighten all of the rollers before use. at high speed the carriage can vibrate if it is fractionally loose
 
 # LCD:
 DWIN DMT48270C043_06WT - https://www.aliexpress.com/item/1005001962148737.html?spm=2114.12010612.8148356.23.51f46c08lNXdFA
