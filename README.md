@@ -10,7 +10,7 @@ Machine teardown/info
 * Facegroup group too (private)
 
 # Firmware for Marlin 2.0.x and Creality default LCD
-https://github.com/ginge/Marlin/tree/CrealityDwin_2.0
+https://github.com/ginge/Marlin/tree/CrealityDwin_2.0 Repo containing a rewrite of the LCD interface to allow Ender 6 to work with stock LCD
 
 
 # General Notes
