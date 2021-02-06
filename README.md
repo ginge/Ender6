@@ -9,6 +9,10 @@ Machine teardown/info
 * Reddit - https://www.reddit.com/r/ender6/
 * Facegroup group too (private)
 
+# Firmware for Marlin 2.0.x and Creality default LCD
+https://github.com/ginge/Marlin/tree/CrealityDwin_2.0
+
+
 # General Notes
 * EEPROM is stored on the SD card. If you change the SD, make sure to copy it over
 * Tighten all of the rollers before use. at high speed the carriage can vibrate if it is fractionally loose
