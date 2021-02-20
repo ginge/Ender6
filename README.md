@@ -75,3 +75,38 @@ Issues:
 * There are some commands that are not mapped
 * you get stuck in screens
 
+# DGUS LCD Editor notes and gotchas
+DO NOT overlap VP or SP areas.
+
+VP: memory address for the control data. uint16.
+* Text control and text digits are different. High and Low byte of the u16 data are 2 characters.
+* Example text control.  Text length 16 characters.  VP Address: 0x5000. End Address: 0x5008
+
+
+SP: Memory address for runtime configuration of controsls. This is optional
+* SP addresses for each control should be placed in VP memory space.
+* Ensure the control's SP size is accounted for when laying out memory
+
+Curves:
+* Occupy 0x1000 - 0x4000 when all 8 channels are used
+* Channel 0: 0x1000 - 0x7FFF
+* etc
+
+New Screens:
+* The BMP file must be prefixed with the page number. The firmware burner ont he LCD uses this to store the bmp in the correct memory page
+ * e.g.  01_page1.bmp
+* bmp files MUST be 24bit
+
+Saving changes:
+* Save the project
+* Click Export
+* Copy the changed filed to DWIN_SET folder on the sd
+* The lcd doesn't understand non ascii characters the editor generates, so:
+* rename 13{blah}.bin to 13a.bin
+* rename 14{blah}.bin to 14a.bin
+
+Flashing:
+* The SD card must be FAT formatted
+* 4k sector size IS IMPORTANT!
+* There is no need to apply all of the files on each flash. Putting just the bin files on there will flash just those etc.
+
