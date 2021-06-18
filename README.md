@@ -34,9 +34,13 @@ No LCD Source available.
   * When levelled and aux levelling is done PRESS HOME TWICE. This saves the EEPROM.
 
 # Firmware
-* Marlin confs - https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Creality/Ender-6?fbclid=IwAR0_o2rPAgZGxDpl3_Vk7JpqURJPMX700ijOMignPIvyoPEuqtwHmsnmPXE
+* Marlin confs - https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Creality/Ender-6
 
 # Main board
+* Version Creality V4.3.1
+* MCU STM32F103R
+* Datasheet https://www.st.com/en/microcontrollers-microprocessors/stm32f103re.html
+* Image - https://user-images.githubusercontent.com/46035129/101119293-caad8480-35c9-11eb-960d-3d9c698b4ba0.png
 * Pinout - https://docs.google.com/spreadsheets/d/1DYhh9fwLnvZzuNvMoBen9Dl68KN-4TWkbO94lJ4iwe4/edit#gid=0
 
 # Cura 4.8 config
