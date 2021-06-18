@@ -39,6 +39,7 @@ No LCD Source available.
 # Main board
 * Version Creality V4.3.1
 * MCU STM32F103R
+* Datasheet https://www.st.com/en/microcontrollers-microprocessors/stm32f103re.html
 * Image - https://user-images.githubusercontent.com/46035129/101119293-caad8480-35c9-11eb-960d-3d9c698b4ba0.png
 * Pinout - https://docs.google.com/spreadsheets/d/1DYhh9fwLnvZzuNvMoBen9Dl68KN-4TWkbO94lJ4iwe4/edit#gid=0
 
